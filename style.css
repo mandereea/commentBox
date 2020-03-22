@@ -1,0 +1,90 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body div {
+    width:60%;
+    margin:0 auto;
+}
+
+div img {
+    align-self: flex-start; 
+    width: 5em;
+    height:5em;
+    margin: 1em;
+}
+
+.inputWrapper {
+    padding: 2em 1em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#commentInput {
+    flex-basis: 60%;
+    padding: 1em;
+    border:2px solid#1ECEAB;
+    padding: 1em;
+    border-radius: 13px;
+    margin: 1em 3em;
+}
+#commentInput:focus {
+    outline: none;
+}
+button {
+    border: none;
+    border-radius: 9px;
+    color: white;
+    width:6em;
+    padding:0.9em;
+    letter-spacing: 0.1em;
+    font-size: medium;
+}
+
+#commentBtn {
+    background-color: #1ECEAB;
+    margin-left: 5%;
+}
+.msgBox button {
+    background-color: rgb(252, 87, 87);
+}    
+
+#comment-list {
+    background-color: rgb(238, 245, 245);
+    min-height: 35em;
+    border-radius: 13px; 
+}
+
+.msgBox {
+    width:96%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgb(133, 143, 153);
+}
+.msgBox p {
+    padding-bottom: 1em;
+}
+
+.msgWrapper {
+    flex-basis: 70%;
+    padding: 1em;
+}
+.email {
+    color:grey;
+    font-size: small;
+}
+
+
+
+
+
